@@ -1,0 +1,202 @@
+@charset "UTF-*8";
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --fundo-principal:#0b1d33; /* Azul Noturno */
+    --destaque-icone: #f28c28; /* Laranja Energia */
+    --texto-principal: #ffffff; /* Branco Puro */
+    --texto-secundario: #b0b8c1; /* Cinza neutro */
+    --destaque-suave: #1e90ff; /* Azul Claro */
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background: var(--fundo-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--texto-principal);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav ul li a {
+    color: var(--texto-principal);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--texto-secundario);
+}
+
+.bth-header {
+    background: #f97316;
+    color: var(--texto-principal);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.bth-header:hover {
+    background: #2563eb;    
+}
+
+.hero {
+    background: var(--fundo-principal);
+    color: var(--texto-principal);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.bth-hero {
+    background: #f97316;
+    color: var(--texto-principal);
+    padding: 14px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.bth-hero:hover {
+    background: #2563eb;
+}
+
+.servicos {
+    padding: 60px 20px;
+    background: var(--texto-principal);
+    text-align: center;
+}
+
+.servicos h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: var(--fundo-principal);
+}
+
+.grid-servicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.servicos {
+    padding: 20px;
+}
+
+.servicos i {
+    font-size: 40px;
+    color: #f97316;
+    margin-bottom: 15px;
+}
+
+.servicos h3 {
+    font-size: 20px;
+    color: var(--fundo-principal);
+    margin-bottom: 10px;
+}
+
+.servicos p {
+    color: #555;
+}
+
+.sobre {
+    background: #1e3a5f;
+    color: var(--texto-principal);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 20px;
+}
+
+.sobre img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sobre-texto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sobre-texto p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    background: var(--fundo-principal);
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    flex-wrap: wrap;
+}
+
+footer .logo {
+    color: var(--texto-principal);
+    font-size: bold;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;    
+}
