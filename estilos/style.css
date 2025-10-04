@@ -127,7 +127,7 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    max-width: 1100px;
+    min-width: 110px;
     margin: auto;
 }
 
