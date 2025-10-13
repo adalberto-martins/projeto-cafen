@@ -40,6 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    top: 0;
 
 }
 
@@ -118,7 +119,8 @@ nav ul li a:hover {
 }
 
 .servicos h2 {
-    font-size: 32px;
+    font-size: 42px;
+    font-weight: bold;
     margin-bottom: 40px;
     color: var(--fundo-principal);
 }
@@ -129,15 +131,6 @@ nav ul li a:hover {
     gap: 30px;
     min-width: 110px;
     margin: auto;
-}
-
-.display {
-    display: grid;
-    grid-template-rows: 3fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    height: 200px;
-
 }
 
 .servicos {
@@ -158,6 +151,10 @@ nav ul li a:hover {
 
 .servicos p {
     color: #555;
+}
+
+.imagem {
+    width: 30%;
 }
 
 .sobre {
