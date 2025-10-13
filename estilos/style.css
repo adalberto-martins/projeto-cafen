@@ -131,6 +131,15 @@ nav ul li a:hover {
     margin: auto;
 }
 
+.display {
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    height: 200px;
+
+}
+
 .servicos {
     padding: 20px;
 }
