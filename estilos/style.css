@@ -114,16 +114,17 @@ nav ul li a:hover {
 }
 
 .servicos {
+    font-size: 38px;
     padding: 60px 20px;
     background: var(--texto-principal);
     text-align: center;
 }
 
 .servicos h2 {
-    font-size: 42px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     color: var(--fundo-principal);
+    text-align: center;
 }
 
 .grid-servicos {
@@ -155,7 +156,7 @@ nav ul li a:hover {
 
 div.grid-servicos div {
     background-color: #fcfcfc;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.103);
     border-radius: 5px;
     padding: 4px;
 }
@@ -216,52 +217,5 @@ footer nav ul {
 
 footer p {
     font-size: 14px;
-    margin-top: 10px;    
-}
-
-/* --- Novo estilo para o item de serviço --- */
-.servicos .servico-item {
-    display: flex; /* Para alinhar o ícone e o texto lado a lado */
-    align-items: flex-start; /* Alinha no topo */
-    text-align: left; /* Alinha o texto à esquerda (diferente do padrão do bloco .servicos) */
-    gap: 15px; /* Espaço entre ícone e texto */
-    padding: 20px; /* Mais padding para o conteúdo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
-    transition: transform 0.3s;
-}
-
-.servicos .servico-item:hover {
-    transform: none; /* Remove a animação de scale no hover para desktop, que é estranha com ícones */
-}
-
-/* Estilo para o wrapper do ícone */
-.icone-wrap {
-    color: var(--destaque-icone); /* Laranja Energia */
-    font-size: 32px; /* Tamanho do ícone */
-    min-width: 40px; /* Garante que o ícone tenha espaço */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* Caso queira uma bolha laranja ao redor: */
-    /* background: var(--destaque-icone); 
-       color: var(--texto-principal);
-       border-radius: 50%;
-       width: 50px;
-       height: 50px;
-       font-size: 24px; */
-}
-
-/* Ajustes no texto do serviço */
-.servicos h3 {
-    font-size: 22px; /* Reduz o tamanho do título */
-    text-align: left;
-}
-.servicos p {
-    font-size: 16px;
-    text-align: left;
-}
-
-/* Remova a regra .imagem (não é mais necessária) */
-.imagem {
-    display: none;
+    margin-top: 10p
 }
