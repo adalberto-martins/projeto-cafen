@@ -40,8 +40,9 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    position: sticky;
     top: 0;
-
+    z-index: 1;
 }
 
 header .logo {
@@ -91,11 +92,11 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 200px;
+    margin-bottom: 5px;
 }
 .hero p {
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 
@@ -105,11 +106,11 @@ nav ul li a:hover {
     padding: 14px 30px;
     border-radius: 6px;
     font-weight: bold;
-    transition: 0.3s;
+    transition: 0.3s;    
 }
 
 .bth-hero:hover {
-    background: #2563eb;
+    background: #2563eb;    
 }
 
 .servicos {
@@ -130,21 +131,16 @@ nav ul li a:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     min-width: 110px;
-    margin: auto;
+    margin: auto;    
 }
 
 .servicos {
     padding: 20px;
 }
 
-.servicos i {
-    font-size: 40px;
-    color: #f97316;
-    margin-bottom: 15px;
-}
-
 .servicos h3 {
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bolder;
     color: var(--fundo-principal);
     margin-bottom: 10px;
 }
@@ -155,6 +151,17 @@ nav ul li a:hover {
 
 .imagem {
     width: 30%;
+}
+
+div.grid-servicos div {
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+div.grid-servicos div:hover {
+    transform: scale(1.1);    
 }
 
 .sobre {
@@ -170,6 +177,10 @@ nav ul li a:hover {
 .sobre img {
     width: 100%;
     border-radius: 8px;
+}
+
+.sobre img:hover {
+    transform: scale(1.1);
 }
 
 .sobre-texto h2 {
@@ -199,6 +210,7 @@ footer .logo {
 
 footer nav ul {
     display: flex;
+    justify-items: end;
     gap: 20px;
 }
 
