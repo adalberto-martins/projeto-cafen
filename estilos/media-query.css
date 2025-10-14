@@ -12,13 +12,76 @@ Grandes telas: acima de 1200px
 
 
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width: 600px)  {
+
+    header {
+        display: flex;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .hero h1 {
+        display: none;        
+
+    }
+
+    .hero svg {
+        display: none;
+    }
+
+    .hero p {
+        font-size: 50px;
+    }   
+
+    .grid-servicos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;               
+    }
+    
+    .servicos {
+        padding: 5px;
+    }
+
+    .servicos h3 {
+        font-size: 28px;
+        font-weight: bolder;
+        color: var(--fundo-principal);
+        margin-bottom: 10px;
+    }
+
+    .servicos p {
+        font-size: 15px;
+        color: #555;
+    }
+
+    .imagem {
+        width: 10%;
+    }
+
+    div.grid-servicos div {
+        background-color: #fcfcfc;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.103);
+        border-radius: 5px;
+        padding: 4px;
+    }
+
+    section.sobre {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
 
     
 }
