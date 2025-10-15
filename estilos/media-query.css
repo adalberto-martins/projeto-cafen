@@ -102,7 +102,7 @@
     }
 
     /* Esconder seção Sobre e Rodapé */
-    section#sobre
+    section#sobre,
     footer {
         display: none;
     }
