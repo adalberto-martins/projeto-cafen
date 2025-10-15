@@ -24,6 +24,78 @@ Grandes telas: acima de 1200px
     --destaque-suave: #1e90ff; /* Azul Claro */
 }
 
+main {
+    margin: auto;
+    max-width: 900px;
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
+    
+}
+
+section.intro h1 {
+    font-size: 50px;
+    color: #f97316;
+    text-align: center;
+}
+
+section.intro p {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza o botão horizontalmente */
+}
+
+label {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: var(--texto-principal);
+  font-size: 25px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  margin-bottom: 10px;
+  width: 97%;
+  padding: 10px;
+  border: 1px solid var(--texto-secundario);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1em;
+  color: black;font-weight: bold;
+  text-align: center;
+  background-color: var(--texto-principal);
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  outline: none;
+  border-color: var(--destaque-principal);
+  box-shadow: 0 0 0 3px rgba(79, 45, 127, 0,2);
+}
+
+button[type="submit"] {
+  width: 200px;
+  background-color: var(--destaque-icone); 
+  color: var(--texto-principal);
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--destaque-suave); /* Mudar para a cor roxa ao passar o mouse */
+  transform: translateY(-2px); /* Efeito sutil de elevação */
+}
+
 
 
 /* Link ativo no menu */
