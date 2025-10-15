@@ -147,6 +147,7 @@ nav ul li a:hover {
 }
 
 #servicos p {
+    font-size: 20px;
     color: #555;
 }
 
@@ -184,12 +185,12 @@ div.grid-servicos div:hover {
     transform: scale(1.1);
 }
 
-#sobre-texto h2 {
+.sobre-texto h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-#sobre-texto p{
+.sobre-texto p{
     font-size: 18px;
     line-height: 1.5;
 }
