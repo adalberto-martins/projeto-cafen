@@ -106,5 +106,40 @@
     footer {
         display: none;
     }
+
+    /* style-contato */
+    .intro {
+  text-align: center;
+  margin: 2rem 1rem;
+}
+
+.info-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.bloco {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bloco i {
+  font-size: 1.4rem;
+  color: var(--laranja);
+}
+
+.mapa {
+  width: 100%;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.cta-faleconosco {
+  text-align: center;
+  margin-bottom: 3rem;
+}
 }
 
