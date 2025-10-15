@@ -54,14 +54,14 @@
     }
 
     /* Serviços */
-    .servicos {
+    #servicos {
         background: #fff;
         color: #0b1d33;
         text-align: left;
         padding: 25px 20px;
     }
 
-    .servicos h2 {
+    #servicos h2 {
         font-size: 24px;
         margin-bottom: 20px;
     }
