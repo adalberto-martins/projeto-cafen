@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->Host       = 'smtp.office365.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'adalberto_martins@outlook.com.br';      // <-- seu email completo
-        $mail->Password   = 'gspufmcanmckcnot';     // <-- senha de app (não a senha normal)
+        $mail->Password   = 'vbycsjijduyygghd';     // <-- senha de app (não a senha normal)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';
