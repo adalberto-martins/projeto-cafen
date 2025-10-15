@@ -24,7 +24,39 @@ Grandes telas: acima de 1200px
     --destaque-suave: #1e90ff; /* Azul Claro */
 }
 
-.bth-header {
+
+
+main {
+    background-color: var(--fundo-principal);
+    color: var(--texto-principal);
+    text-align: center;
+    padding: 20px;
+}
+
+section.intro h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+section.intro p {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+section.info-contato i {
+    font-size: 25px;
+    color:var(--destaque-icone);
+    margin-top: 5px;
+}
+
+div.bloco p {
+    margin-bottom: 8px;
+}
+div.cta-faleconosco a {
+    width: 200px;
+    height: 200px;
+    line-height: 100px;
     background: #f97316;
     color: var(--texto-principal);
     padding: 10px 20px;
@@ -33,13 +65,21 @@ Grandes telas: acima de 1200px
     transition: 0.3s;
 }
 
-.info-contato {
-    flex-direction: row;
-    justify-content: space-around;
+div.cta-faleconosco a:hover {
+    background: var(--destaque-suave);
+    
+}
+
+div.cta-faleconosco p {
+    margin-top:20px;
+}
+
+iframe {
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.173);
 }
 
 .mapa {
-    width: 80%;
-    margin: 2rem auto;
-    display: block;
+    margin-top: 20px;
+    width: 80%;    
 }
