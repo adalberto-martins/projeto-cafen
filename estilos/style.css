@@ -264,15 +264,15 @@ footer p {
 }
 
 .card-servico h3 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 900;
     margin-bottom: 12px;
     color: #0b1d33;
 }
 
 .card-servico p {
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 10px;
+    line-height: 1.3;
     color: #334155;
 }
 
@@ -299,3 +299,5 @@ footer p {
 nav a.ativo {
     color: #f97316;
 }
+
+
