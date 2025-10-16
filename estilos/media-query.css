@@ -152,6 +152,24 @@
     .post-content {
         padding: 10px;
     }
+    /* saiba mais */
+    .saiba-container {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .saiba-conteudo h2 {
+        font-size: 1.5rem;
+    }
+
+    .saiba-conteudo p {
+        font-size: 1rem;
+    }
+
+    .saiba-img img {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
 
 
