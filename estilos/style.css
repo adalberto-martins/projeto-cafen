@@ -282,6 +282,14 @@ footer p {
   padding: 80px 20px;
 }
 
+.hero-blog h2 {
+    font-size: 48px;
+}
+
+.hero-blog p {
+    font-size: 2em;
+}
+
 .blog-container {
   max-width: 1000px;
   margin: 50px auto;

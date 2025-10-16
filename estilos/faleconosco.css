@@ -25,11 +25,13 @@ Grandes telas: acima de 1200px
 }
 
 main {
-    margin: auto;
-    max-width: 900px;
     background-color: var(--fundo-principal);
     color: var(--texto-principal);
     
+}
+
+header {
+  position: static;
 }
 
 section.intro h1 {
@@ -61,6 +63,7 @@ label {
 input[type="text"], input[type="email"], textarea {
   margin-bottom: 10px;
   width: 97%;
+  max-width: 900px;
   padding: 10px;
   border: 1px solid var(--texto-secundario);
   border-radius: 8px;

@@ -33,6 +33,10 @@ main {
     padding: 20px;
 }
 
+header { 
+    position: static;
+}
+
 section.intro h1{
     font-size: 50px;
     margin-bottom: 10px;
