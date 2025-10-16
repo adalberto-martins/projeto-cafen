@@ -134,7 +134,28 @@
     .servico-detalhe ul li {
         font-size: 0.95rem;
   }
+
+  
+  .post {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .post-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-container {
+    padding: 10px;
+  }
+
+  .post-content {
+    padding: 10px;
+  }
 }
+
+
 
 
 
