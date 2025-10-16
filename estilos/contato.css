@@ -24,8 +24,6 @@ Grandes telas: acima de 1200px
     --destaque-suave: #1e90ff; /* Azul Claro */
 }
 
-
-
 main {
     background-color: var(--fundo-principal);
     color: var(--texto-principal);
