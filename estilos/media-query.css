@@ -8,8 +8,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 15px;
-        width: 100%;
+        padding: 10px 15px;        
     }
 
     header nav {
@@ -63,9 +62,17 @@
     }
 
     #servicos h2 {
-        font-size: 24px;
+        font-size: 40px;
         margin-bottom: 20px;
     }
+
+    section#servicos .imagem {
+        display: block;
+        margin: 10px auto;
+        width: 30%;       
+        height: auto;
+        border-radius: 10px;
+    }    
 
     .grid-servicos {
         display: grid;
@@ -74,8 +81,6 @@
     }
 
     .grid-servicos div {
-        display: flex;
-        align-items: flex-start;
         background: #fff;
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.08);
@@ -96,7 +101,7 @@
     }
 
     .grid-servicos p {
-        font-size: 14px;
+        font-size: 12px;
         color: #333;
         line-height: 1.4;
         padding: 5px;
@@ -110,40 +115,6 @@
     footer {
         display: none;
     }
-
-    /* style-contato */
-    .intro {
-  text-align: center;
-  margin: 2rem 1rem;
 }
 
-.info-contato {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 1rem 1.5rem;
-}
-
-.bloco {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.bloco i {
-  font-size: 1.4rem;
-  color: var(--laranja);
-}
-
-.mapa {
-  width: 100%;
-  border-radius: 10px;
-  margin: 2rem 0;
-}
-
-.cta-faleconosco {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-}
 
