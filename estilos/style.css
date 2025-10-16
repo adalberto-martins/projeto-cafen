@@ -401,6 +401,7 @@ footer p {
   width: 90%;
   max-width: 420px;
   border-radius: 10px;
+  box-shadow: 4px -6px 3px rgba(0, 0, 0, 0.271);
 }
 
 
