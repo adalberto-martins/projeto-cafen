@@ -33,7 +33,7 @@
 
     .hero h1,
     .hero svg {
-        display: none; /* esconde o logo e texto grande */
+        display: none; 
     }
 
     .hero p {
@@ -107,8 +107,7 @@
         line-height: 1.4;
         padding: 5px;
     }
-
-    /* Esconder seção Sobre e Rodapé */
+    
     section#sobre {
         display: none;
     }
@@ -117,7 +116,7 @@
         display: none;
     }
 
-
+    /* servico-web servico-marketing servico-suporte  */
     .servico-detalhe {
         width: 90%;
         padding: 1.5rem 1rem;
@@ -133,26 +132,26 @@
 
     .servico-detalhe ul li {
         font-size: 0.95rem;
-  }
+    }
 
-  
-  .post {
-    flex-direction: column;
-    text-align: center;
-  }
+    /* Blog e post */  
+    .post {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .post-img {
-    width: 100%;
-    height: auto;
-  }
+    .post-img {
+        width: 100%;
+        height: auto;
+    }
 
-  .blog-container {
-    padding: 10px;
-  }
+    .blog-container {
+        padding: 10px;
+    }
 
-  .post-content {
-    padding: 10px;
-  }
+    .post-content {
+        padding: 10px;
+    }
 }
 
 

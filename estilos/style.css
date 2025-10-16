@@ -71,6 +71,10 @@ nav ul li a:hover {
     color: var(--texto-secundario);
 }
 
+nav a.ativo {
+    color: #f97316;
+}
+
 .bth-header {
     background: #f97316;
     color: var(--texto-principal);
@@ -213,12 +217,7 @@ footer p {
     margin-top: 10p
 }
 
-
-
-/* Link ativo no menu */
-nav a.ativo {
-    color: #f97316;
-}
+/* servico-web servico-marketing servico-suporte */
 
 .servico-detalhe {
   max-width: 800px;
@@ -271,6 +270,8 @@ nav a.ativo {
 .btn-voltar:hover {
   background: #0B1D33;
 }
+
+/* Blog e post */
 
 .hero-blog {
   background-color: #0B1D33;
