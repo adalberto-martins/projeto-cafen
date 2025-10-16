@@ -25,16 +25,18 @@ Grandes telas: acima de 1200px
 }
 
 
-/* ===== PÁGINA DE SERVIÇOS (com Font Awesome) ===== */
+header {
+    position: static;
+}
 .pagina-servicos {
-    background: #0b1d33;
+    background: var(--fundo-principal);
     color: #fff;
     text-align: center;
-    padding: 80px 20px;
+    padding: 100px 20px;
 }
 
 .pagina-servicos h1 {
-    font-size: 42px;
+    font-size: 100px;
     font-weight: bold;
     margin-bottom: 60px;
 }
@@ -83,9 +85,10 @@ Grandes telas: acima de 1200px
 
 .botao-centro {
     margin-top: 60px;
+    transition: transform 0.3s ease;
 }
 
-.botao-centro .bth-hero {
+div.botao-centro .bth-hero {
     background: #f97316;
     color: #fff;
     font-weight: bold;
@@ -96,7 +99,8 @@ Grandes telas: acima de 1200px
     transition: 0.3s;
 }
 
-.botao-centro .bth-hero:hover {
+div.botao-centro .bth-hero:hover {
+    transform: translateY(-8px);
     background: #2563eb;
 }
 
