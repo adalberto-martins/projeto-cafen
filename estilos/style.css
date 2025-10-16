@@ -162,10 +162,6 @@ div.grid-servicos div {
     padding: 4px;
 }
 
-div.grid-servicos div:hover {
-    transform: scale(1.1);    
-}
-
 #sobre {
     background: #1e3a5f;
     color: var(--texto-principal);
@@ -179,10 +175,6 @@ div.grid-servicos div:hover {
 #sobre img {
     width: 100%;
     border-radius: 8px;
-}
-
-#sobre img:hover {
-    transform: scale(1.1);
 }
 
 .sobre-texto h2 {
