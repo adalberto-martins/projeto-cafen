@@ -187,6 +187,7 @@ div.grid-servicos div {
 }
 
 .sobre-texto p{
+    text-indent: 20px;
     font-size: 18px;
     line-height: 1.5;
 }
