@@ -5,26 +5,33 @@ header {
 }
 
 body {
-    background: #1e3a5f;
+    background: linear-gradient(80deg, #0b1d33 0%, #11294f 100%);
     color: #fff;
 }
 
-.hero-sobre {
-  background: #0B1D33;
-  color: white;
-  text-align: center;
-  padding: 80px 20px 60px;
+#sobre,
+.sobre-container {
+  background:#1e3a5f;
+  border-radius: 5px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 80px 40px;
 }
 
 .hero-sobre h2 {
   font-size: 80px;
   margin-bottom: 10px;
   color: #F37021;
+  text-align: center;
 }
 
 .hero-sobre p {
   font-size: 35px;
   color: #d7d7d7;
+  text-align: center;
 }
 
 .sobre-container {

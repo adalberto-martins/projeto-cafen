@@ -9,79 +9,80 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-:root {
-    --fundo-principal:#0b1d33; /* Azul Noturno */
-    --destaque-icone: #f28c28; /* Laranja Energia */
-    --texto-principal: #ffffff; /* Branco Puro */
-    --texto-secundario: #b0b8c1; /* Cinza neutro */
-    --destaque-suave: #1e90ff; /* Azul Claro */
-}
-
-main {
-    background-color: var(--fundo-principal);
-    color: var(--texto-principal);
-    text-align: center;
-    padding: 20px;
-}
-
 header { 
     position: static;
 }
 
-section.intro h1{
-    font-size: 50px;
-    margin-bottom: 10px;
-    
+main.contato-container {
+  background-color: var(--fundo-principal);
+  color: var(--texto-principal);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+section.intro h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 section.intro p {
-    font-size: 30px;
-    margin-bottom: 5px;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  color: var(--texto-secundario);
+}
+
+section.info-contato {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+section.info-contato .bloco {
+  background: rgba(255,255,255,0.05);
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+section.info-contato .bloco:hover {
+  background: rgba(255,255,255,0.1);
 }
 
 section.info-contato i {
-    font-size: 25px;
-    color:var(--destaque-icone);
-    margin-top: 5px;
+  font-size: 30px;
+  color: var(--destaque-icone);
+  margin-bottom: 10px;
 }
 
-div.bloco p {
-    margin-bottom: 8px;
-}
-div.cta-faleconosco a {
-    width: 200px;
-    height: 200px;
-    line-height: 100px;
-    background: #f97316;
-    color: var(--texto-principal);
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-weight: bold;
-    transition: 0.3s;
+.cta-faleconosco {
+  margin-top: 40px;
 }
 
-div.cta-faleconosco a:hover {
-    background: var(--destaque-suave);
-    
+.cta-faleconosco p {
+    margin-bottom: 20px;
 }
 
-div.cta-faleconosco p {
-    margin-top:20px;
+.cta-faleconosco a {
+  display: inline-block;
+  background: linear-gradient(90deg, #f97316, #f28c28);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.cta-faleconosco a:hover {
+  transform: translateY(-3px);
+  background: var(--destaque-suave);
 }
 
 iframe {
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.173);
-}
-
-.mapa {
-    margin-top: 20px;
-    width: 80%;    
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-top: 20px;
 }
