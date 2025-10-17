@@ -36,14 +36,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.office365.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'adalberto_martins@outlook.com.br';      // <-- seu email completo
-        $mail->Password   = 'vbycsjijduyygghd';     // <-- senha de app (não a senha normal)
+        $mail->Username   = 'seuenail@outlook.com';      // <-- seu email completo
+        $mail->Password   = 'suasenhadaconta';     // <-- senha de app (não a senha normal)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = 'UTF-8';
 
         /* ===== REMETENTE E DESTINATÁRIO ===== */
-        $mail->setFrom('adalberto_martins@outlook.com.br', 'CAFEN Website');
+        $mail->setFrom('seuemail@outlook.com.br', 'CAFEN Website');
         $mail->addAddress('contato@cafen.com', 'CAFEN'); // pode trocar por outro e-mail destino
 
         /* ===== CONTEÚDO ===== */
