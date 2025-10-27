@@ -14,7 +14,7 @@ function temaEscuro(tipo) {
     body.classList.remove('escuro');
     botao.innerHTML = '<i class="fa-solid fa-moon"></i>';
   }
-}
+};
 
 botao.addEventListener('click', () => {
   const isescuro = body.classList.toggle('escuro');
@@ -38,3 +38,22 @@ navLinks.forEach(link => {
     }
   });
 });
+
+// Menu Hamburger
+  const menuBtn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('nav');
+
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', () => {
+      const isActive = nav.classList.toggle('active');
+      menuBtn.setAttribute('aria-expanded', isActive);
+    });
+
+    // Fecha o menu ao clicar em um link
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('active');
+        menuBtn.setAttribute('aria-expanded', false);
+      });
+    });
+  };

@@ -89,6 +89,10 @@ nav a.ativo {
   color: var(--destaque-icone);
 }
 
+.menu-btn {
+  display: none;
+}
+
 .bth-header {
   background: linear-gradient(90deg, #f97316, #f28c28);
   color: var(--texto-principal);

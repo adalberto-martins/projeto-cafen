@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/media-query.css">
     
 </head>
-<body class="pagina" onresize="mudouTamanho()">
+<body class="pagina">
     <header>
         <div class="logo"><svg width="220" height="60" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="60" height="60" rx="10" fill="#F37021"></rect>
@@ -21,7 +21,7 @@
     CAFEN
   </text>
 </svg></div>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <button class="menu-btn" aria-expanded="false" aria-label="Abrir menu">☰</button>
         <nav id="menu">
             <ul>
                 <li><a href="index.html" class="ativo">Início</a></li>
@@ -30,7 +30,7 @@
                 <li><a href="contato.html">Contatos</a></li>                              
             </ul>
         </nav>        
-        <a href="faleconosco.html" class="bth-header">Fale Conosco</a>
+        <a href="faleconosco.html" class="bth-header">Fale Conosco</a>       
         <a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a>
     </header>
 
@@ -80,9 +80,9 @@
             <img src="imagens/equipe.jpg" alt="Equipe CAFEN">
             <div class="sobre-texto">
                 <h2>Sobre Nós</h2>
-                <p>CAFEN é uma empresa de techologia focada em soluções digitais simples e eficazes.</p></br>
+                <p>CAFEN é uma empresa de techologia focada em soluções digitais simples e eficazes.
                 Nosso objetivo é transformar ideias em impacto real para nossos clientes.</p>
-            </div>
+            </div></br>
         </section>
     </main>
     
@@ -107,26 +107,7 @@
         <p> &copy;2025 CAFEN. Todos os direitos reservados.</p>
 
     </footer>
-    <script src="scripts/script.js"></script>
-    <script>
-        function mudouTamanho() {
-            if (window.innerWidth >= 768) {
-                menu.style.display = 'block'
-            } else {
-                menu.style.display = 'none'
-            }
-        }
-
-        function clickMenu() {
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none'
-            } else {
-                menu.style.display = 'block'
-            }
-        }
-        
-        document.documentElement.style.scrollBehavior = "smooth";
-    </script>
+    <script src="scripts/script.js"></script>  
     
 </body>
 </html>
