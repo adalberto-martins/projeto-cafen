@@ -24,10 +24,27 @@
   .menu-btn {
     display: block;
     background: none;
+    color: var(----texto-principal);
     border: none;
     font-size: 26px;
     cursor: pointer;
     color: var(--preto);
+    position: relative;
+  }
+
+  .menu-btn::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background: var(--destaque-icone);
+    transition: width 0.3s;
+  }
+
+  .menu-btn:hover::after {
+    width: 100%;
   }
 
   @keyframes fadeIn {
