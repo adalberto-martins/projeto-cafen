@@ -11,7 +11,7 @@ body {
 
 #sobre,
 .sobre-container {
-  background:#1e3a5f;
+  background:#fff;
   border-radius: 5px;
   color: #fff;
   display: grid;
@@ -24,7 +24,7 @@ body {
 .hero-sobre h2 {
   font-size: 80px;
   margin-bottom: 10px;
-  color: #F37021;
+  color: var(--texto-principal);
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ body {
 
 .sobre-conteudo p {
   margin-bottom: 1.2rem;
-  color: #fff;
+  color: var(--fundo-principal);
   font-size: 1em;
 }
 

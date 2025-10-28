@@ -25,6 +25,21 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --sombra-leve: rgba(0, 0, 0, 0.15);
 }
 
+body.escuro {
+  --fundo-principal: #08121f;
+  --fundo-secundario: #0f213b;
+  --destaque-icone: #f28c28;
+  --destaque-suave: #2563eb;
+  --texto-principal: #f4f4f4;
+  --texto-secundario: #b0b8c1;
+  --borda-suave: #1e293b;
+  --sombra-leve: rgba(0, 0, 0, 0.4);
+  background: var(--fundo-principal);
+  color: var(--texto-principal);
+}
+
+
+
 body {
   background: var(--texto-principal);
   color: #333;
