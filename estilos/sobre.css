@@ -4,32 +4,28 @@ header {
   position: static;
 }
 
-body {
-    background: linear-gradient(80deg, #0b1d33 0%, #11294f 100%);
-    color: #fff;
-}
-
 #sobre,
 .sobre-container {
-  background:#fff;
+  background: var(--fundo-principal);
   border-radius: 5px;
   color: #fff;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
-  gap: 40px;
-  padding: 80px 40px;
+ 
+  
 }
 
 .hero-sobre h2 {
   font-size: 80px;
   margin-bottom: 10px;
-  color: var(--texto-principal);
+  color: var(--fundo-principal);
   text-align: center;
 }
 
 .hero-sobre p {
   font-size: 35px;
+  color:var(--fundo-principal);
   text-align: center;
 }
 
@@ -49,7 +45,7 @@ body {
 
 .sobre-conteudo {
   flex: 1;
-  color: #0B1D33;
+  color: var(--texto-principal);
   line-height: 1.7;
 }
 
@@ -60,7 +56,7 @@ body {
 
 .sobre-conteudo p {
   margin-bottom: 1.2rem;
-  color: var(--fundo-principal);
+  color: var(--texto-principal);
   font-size: 1em;
 }
 
