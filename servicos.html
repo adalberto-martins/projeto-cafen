@@ -11,21 +11,26 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-           <img src="imagens/logo-cafen.svg" alt="CAFEN" class="logo-img">
-           <h1>CAFEN</h1>
-        </div>
-
-        <nav>
+        <div class="logo"><svg width="220" height="60" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="60" height="60" rx="10" fill="#F37021"></rect>
+  <path d="M18 42C22.4183 42 26 45.5817 26 50H18V42Z" fill="white"></path>
+  <path d="M18 30C27.9411 30 36 38.0589 36 48H30C30 41.3726 24.6274 36 18 36V30Z" fill="white"></path>
+  <path d="M18 18C34.5685 18 48 31.4315 48 48H42C42 34.7452 31.2548 24 18 24V18Z" fill="white"></path>
+  <text x="75" y="40" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF">
+    CAFEN
+  </text>
+</svg></div>
+        <button class="menu-btn" aria-expanded="false" aria-label="Abrir menu">☰</button>
+        <nav id="menu">
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="servicos.html" class="ativo">Serviços</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="contato.html">Contatos</a></li>                              
             </ul>
-        </nav>
-
-        <a href="faleconosco.html" class="bth-header">Fale Conosco</a>
+        </nav>        
+        <a href="faleconosco.html" class="bth-header">Fale Conosco</a>       
+        <a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a>
     </header>
 
     <main class="pagina-servicos">
@@ -77,5 +82,6 @@
         <p> &copy;2025 CAFEN. Todos os direitos reservados.</p>
 
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
