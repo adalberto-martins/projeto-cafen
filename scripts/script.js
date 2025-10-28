@@ -57,3 +57,21 @@ navLinks.forEach(link => {
       });
     });
   };
+
+  // Fecha o menu ao clicar fora (na página)
+document.addEventListener('click', (evt) => {
+    const target = evt.target;
+    // se o menu estiver aberto e o click não for no menu nem no botão, fecha
+    if (navLinks.classList.contains('open') && !navLinks.contains(target) && !menuBtn.contains(target)) {
+    navLinks.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    }
+});
+
+// Fecha o menu ao pressionar ESC
+document.addEventListener('keydown', (evt) => {
+    if (evt.key === 'Escape' && navLinks.classList.contains('open')) {
+    navLinks.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    }
+});

@@ -7,7 +7,8 @@
     flex-direction: column;
     position: absolute;
     top: 78px;
-    right: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     background: rgba(255, 255, 255, 0.95);
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
