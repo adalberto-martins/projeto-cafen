@@ -22,6 +22,20 @@ botao.addEventListener('click', () => {
   localStorage.setItem('tema', isescuro ? 'escuro' : 'claro');
 });
 
+// --- Função para Atualizar Automaticamente o Ano de Copyright ---
+(function() {
+    const yearElement = document.getElementById('current-year');
+    
+    // Verifica se o elemento foi encontrado na página
+    if (yearElement) {
+        // Obtém o ano atual (ex: 2025)
+        const currentYear = new Date().getFullYear();
+        
+        // Atualiza o conteúdo do elemento com o ano atual
+        yearElement.textContent = currentYear;
+    }
+})();
+
 // Scroll suave para links de navegação
 const navLinks = document.querySelectorAll('#menu ul a.link');
 navLinks.forEach(link => {
