@@ -273,6 +273,15 @@ footer p {
   text-align: center;
 }
 
+.dev footer {
+    padding: 22px 6px;
+    border-top: 1px solid rgba(10,20,30,0.4);
+    margin-top: 18px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
 /* */
 
 /* servico-web servico-marketing servico-suporte */
